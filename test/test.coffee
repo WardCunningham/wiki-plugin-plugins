@@ -8,6 +8,6 @@ describe 'plugins plugin', ->
 
   describe 'expand', ->
 
-    it 'can make itallic', ->
-      result = plugins.expand 'hello *world*'
-      expect(result).to.be 'hello <i>world</i>'
+    it 'can make html safe', ->
+      result = plugins.expand 'hello & goodbye'
+      expect(result).to.be 'hello &amp; goodbye'

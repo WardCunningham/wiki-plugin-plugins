@@ -1,0 +1,37 @@
+{
+  "title": "About Plugins Plugin",
+  "story": [
+  {
+    "type": "paragraph",
+    "id": "5309fc4b869b5d8b",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "plugins",
+    "id": "37e60128852c8e06",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+],
+  "journal": [
+  {
+    "type": "create",
+    "item": {
+      "title": "About Plugins Plugin",
+      "story": [
+  {
+    "type": "paragraph",
+    "id": "5309fc4b869b5d8b",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "plugins",
+    "id": "37e60128852c8e06",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+]
+    },
+    "date": 1421468853000,
+    "certificate": "from mkplugin.sh"
+  }
+]
+}

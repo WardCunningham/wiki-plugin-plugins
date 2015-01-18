@@ -1,37 +1,122 @@
 {
   "title": "About Plugins Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "5309fc4b869b5d8b",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "plugins",
-    "id": "37e60128852c8e06",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About Plugins Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "5309fc4b869b5d8b",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "plugins",
-    "id": "37e60128852c8e06",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "5309fc4b869b5d8b",
+      "text": "The Plugins plugin lists the available plugins on the origin server. Specific plugins can be selected with a regular expression. [https://github.com/WardCunningham/wiki-plugin-plugins github]"
     },
-    "date": 1421468853000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "plugins",
+      "id": "37e60128852c8e06",
+      "text": "e$"
+    },
+    {
+      "type": "paragraph",
+      "id": "37a8cc5c2894bde0",
+      "text": "Here we list all available plugins that end in the letter e. Double-click to see or change this selection. Blank text will remove the plugin."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About Plugins Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "5309fc4b869b5d8b",
+            "text": "Here we describe the purpose of the plugin and include a sample."
+          },
+          {
+            "type": "plugins",
+            "id": "37e60128852c8e06",
+            "text": "This is text in the new plugin. You can *double-click* to edit it too."
+          }
+        ]
+      },
+      "date": 1421468853000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "type": "edit",
+      "id": "5309fc4b869b5d8b",
+      "item": {
+        "type": "paragraph",
+        "id": "5309fc4b869b5d8b",
+        "text": "The Plugins plugin lists the available plugins on the origin server. The list can be subsetted with a regular expression."
+      },
+      "date": 1421538953255
+    },
+    {
+      "type": "edit",
+      "id": "37e60128852c8e06",
+      "item": {
+        "type": "plugins",
+        "id": "37e60128852c8e06",
+        "text": "d$"
+      },
+      "date": 1421538970575
+    },
+    {
+      "type": "edit",
+      "id": "37e60128852c8e06",
+      "item": {
+        "type": "plugins",
+        "id": "37e60128852c8e06",
+        "text": "e$"
+      },
+      "date": 1421538980654
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "37a8cc5c2894bde0"
+      },
+      "id": "37a8cc5c2894bde0",
+      "type": "add",
+      "after": "37e60128852c8e06",
+      "date": 1421538990253
+    },
+    {
+      "type": "edit",
+      "id": "37a8cc5c2894bde0",
+      "item": {
+        "type": "paragraph",
+        "id": "37a8cc5c2894bde0",
+        "text": "Here we list all available plugins that end in the letter d. Double-click to see or change this selection. Blank text will remove the plugin."
+      },
+      "date": 1421539233763
+    },
+    {
+      "type": "edit",
+      "id": "5309fc4b869b5d8b",
+      "item": {
+        "type": "paragraph",
+        "id": "5309fc4b869b5d8b",
+        "text": "The Plugins plugin lists the available plugins on the origin server. Specific plugins can be selected with a regular expression."
+      },
+      "date": 1421539251746
+    },
+    {
+      "type": "edit",
+      "id": "5309fc4b869b5d8b",
+      "item": {
+        "type": "paragraph",
+        "id": "5309fc4b869b5d8b",
+        "text": "The Plugins plugin lists the available plugins on the origin server. Specific plugins can be selected with a regular expression. [https://github.com/WardCunningham/wiki-plugin-plugins github]"
+      },
+      "date": 1421539999504
+    },
+    {
+      "type": "edit",
+      "id": "37a8cc5c2894bde0",
+      "item": {
+        "type": "paragraph",
+        "id": "37a8cc5c2894bde0",
+        "text": "Here we list all available plugins that end in the letter e. Double-click to see or change this selection. Blank text will remove the plugin."
+      },
+      "date": 1421540040170
+    }
+  ]
 }

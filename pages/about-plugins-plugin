@@ -15,6 +15,14 @@
       "type": "paragraph",
       "id": "37a8cc5c2894bde0",
       "text": "Here we list all available plugins that end in the letter e. Double-click to see or change this selection. Blank text will remove the plugin."
+    },
+    {
+      "type": "reference",
+      "id": "1cf043f13b13c4b9",
+      "site": "plugins.fed.wiki.org",
+      "slug": "about-plugins",
+      "title": "About Plugins",
+      "text": "We explain federated wiki plugins. We define their role interpreting content, recount our experience writing many, describe principles and strategies for future plugins, and offer a step-by-step guide for new plugin authors. We'll also collect pointers here to good plugins when they emerge."
     }
   ],
   "journal": [
@@ -117,6 +125,29 @@
         "text": "Here we list all available plugins that end in the letter e. Double-click to see or change this selection. Blank text will remove the plugin."
       },
       "date": 1421540040170
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1cf043f13b13c4b9"
+      },
+      "id": "1cf043f13b13c4b9",
+      "type": "add",
+      "after": "37a8cc5c2894bde0",
+      "date": 1421540205713
+    },
+    {
+      "type": "edit",
+      "id": "1cf043f13b13c4b9",
+      "item": {
+        "type": "reference",
+        "id": "1cf043f13b13c4b9",
+        "site": "plugins.fed.wiki.org",
+        "slug": "about-plugins",
+        "title": "About Plugins",
+        "text": "We explain federated wiki plugins. We define their role interpreting content, recount our experience writing many, describe principles and strategies for future plugins, and offer a step-by-step guide for new plugin authors. We'll also collect pointers here to good plugins when they emerge."
+      },
+      "date": 1421540222854
     }
   ]
 }
